@@ -78,12 +78,12 @@ python train.py --pset config_citation.five_label_set --dataset large_cora --met
 ## Cite
 Please cite our paper if you use this code in your own work:
 
-@InProceedings{Lin_2020_CVPR,
-author = {Lin, Wanyu and Gao, Zhaolin and Li, Baochun},
-title = {Shoestring: Graph-Based Semi-Supervised Classification With Severely Limited Labeled Data},
-booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2020}
+@inproceedings{Lin_2020_CVPR,
+	author = {Lin, Wanyu and Gao, Zhaolin and Li, Baochun},
+	title = {Shoestring: Graph-Based Semi-Supervised Classification With Severely Limited Labeled Data},
+	booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+	month = {June},
+	year = {2020}
 }
 
 ## Acknowledgements

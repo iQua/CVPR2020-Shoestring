@@ -6,7 +6,7 @@ This repo covers an reference implementation for our CVPR 2020 paper [Shoestring
 ## Table of Contents 
 
 * [Installation](#installation)
-* [Run Demos](#run-demos)
+* [Run demos](#run-demos)
 * [Parameters](#parameters)
 * [Acknowledgements](#acknowledgements)
 

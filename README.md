@@ -1,4 +1,4 @@
-﻿# Shoestring: Graph-Based Semi-Supervised Classification with Severely Limited Labeled Data [https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Shoestring_Graph-Based_Semi-Supervised_Classification_With_Severely_Limited_Labeled_Data_CVPR_2020_paper.pdf]
+﻿# Shoestring: Graph-Based Semi-Supervised Classification with Severely Limited Labeled Data [paper link] (https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Shoestring_Graph-Based_Semi-Supervised_Classification_With_Severely_Limited_Labeled_Data_CVPR_2020_paper.pdf)
 
 ## Table of Contents 
 

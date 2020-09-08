@@ -77,7 +77,7 @@ python train.py --pset config_citation.five_label_set --dataset large_cora --met
 
 ## Cite
 Please cite our paper if you use this code in your own work:
-
+```
 @inproceedings{Lin_2020_CVPR,
 	author = {Lin, Wanyu and Gao, Zhaolin and Li, Baochun},
 	title = {Shoestring: Graph-Based Semi-Supervised Classification With Severely Limited Labeled Data},
@@ -85,6 +85,6 @@ Please cite our paper if you use this code in your own work:
 	month = {June},
 	year = {2020}
 }
-
+```
 ## Acknowledgements
 Thanks for [Kipf's implementation of GCN](https://github.com/tkipf/gcn/) and [Li's implementation of GLP and IGCN](https://github.com/liqimai/Efficient-SSL), on which this repository is initially based.

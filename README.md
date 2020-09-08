@@ -1,6 +1,6 @@
 ﻿# Shoestring
 
-This repo covers an reference implementation for our paper [Shoestring](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Shoestring_Graph-Based_Semi-Supervised_Classification_With_Severely_Limited_Labeled_Data_CVPR_2020_paper.pdf). 
+This repo covers the implementation for our paper [Shoestring](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Shoestring_Graph-Based_Semi-Supervised_Classification_With_Severely_Limited_Labeled_Data_CVPR_2020_paper.pdf). 
 
 Wanyu Lin, Zhaolin Gao, and Baochun Li. "Shoestring: Graph-Based Semi-Supervised Classification with Severely Limited Labeled Data" In IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2020.
 

@@ -1,4 +1,4 @@
-﻿# Shoestring: Graph-Based Semi-Supervised Classification with Severely Limited Labeled Data
+﻿# Shoestring: Graph-Based Semi-Supervised Classification with Severely Limited Labeled Data [https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Shoestring_Graph-Based_Semi-Supervised_Classification_With_Severely_Limited_Labeled_Data_CVPR_2020_paper.pdf]
 
 ## Table of Contents 
 
@@ -6,7 +6,6 @@
 * [Run Demos](#run-demos)
 * [Parameters](#parameters)
 * [Acknowledgements](#acknowledgements)
-* [References](#references)
 
 ## Installation
 
@@ -43,12 +42,6 @@ conda install -c conda-forge texttable
 
 ## Run Demos
 
-#### 1. Clone the repository
-
-```bash
-git clone https://github.com/iQua/wanyu-aaai20-gcn-code.git
-```
-
 #### 2. Run code with parameters
 To reproduce the results in our paper
 
@@ -80,12 +73,15 @@ python train.py --pset config_citation.five_label_set --dataset large_cora --met
 - `method` Method to calculate the distance. Options are l1, l2, cos. Default is cos.
 
 ## Cite
-Please cite our paper if you use this code or Large Cora dataset in your own work:
+Please cite our paper if you use this code in your own work:
 
-```
-```
+@InProceedings{Lin_2020_CVPR,
+author = {Lin, Wanyu and Gao, Zhaolin and Li, Baochun},
+title = {Shoestring: Graph-Based Semi-Supervised Classification With Severely Limited Labeled Data},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
 
 ## Acknowledgements
 Thanks for [Kipf's implementation of GCN](https://github.com/tkipf/gcn/) and [Li's implementation of GLP and IGCN](https://github.com/liqimai/Efficient-SSL), on which this repository is initially based.
-
-## References 

@@ -9,11 +9,11 @@ Wanyu Lin, Zhaolin Gao, and Baochun Li. "Shoestring: Graph-Based Semi-Supervised
 * [Installation](#installation)
 * [Run demos](#run-demos)
 * [Parameters](#parameters)
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgments](#acknowledgements)
 
 ## Installation
 
-#### 1. Install Anaconda (<https://www.anaconda.com/download/>)
+#### 1. Install anaconda (<https://www.anaconda.com/download/>)
 
 #### 2. Create a new environment and install tensorflow.
 
@@ -27,7 +27,7 @@ Activate environment.
 conda activate NAME_OF_YOUR_ENVIRONMENT
 ```
 
-If you have a Cuda-enabled GPU (check <https://developer.nvidia.com/cuda-gpus> for detail), install tensorflow GPU:
+If you have a CUDA-enabled GPU (check <https://developer.nvidia.com/cuda-gpus> for detail), install tensorflow GPU:
 ```bash
 conda install -c anaconda tensorflow-gpu=1.13.1
 ```
@@ -44,7 +44,7 @@ conda install -c anaconda scikit-learn=0.21.1
 conda install -c conda-forge texttable
 ```
 
-## Run Demos
+## Run demos
 
 #### 2. Run code with parameters
 To reproduce the results in our paper
@@ -87,5 +87,5 @@ Please cite our paper if you use this code in your own work:
 	year = {2020}
 }
 ```
-## Acknowledgements
+## Acknowledgments
 Thanks for [Kipf's implementation of GCN](https://github.com/tkipf/gcn/) and [Li's implementation of GLP and IGCN](https://github.com/liqimai/Efficient-SSL), on which this repository is initially based.

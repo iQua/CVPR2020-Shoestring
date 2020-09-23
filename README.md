@@ -46,8 +46,7 @@ conda install -c conda-forge texttable
 
 ## Run demos
 
-#### 2. Run code with parameters
-To reproduce the results in our paper
+#### Run code with parameters to reproduce the results in our paper
 
 ```bash
 # Cora

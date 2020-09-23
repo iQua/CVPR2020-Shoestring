@@ -13,10 +13,7 @@ default = {
         'test_size'         : None,         # If None, all rest are test set
         'feature'           : 'bow',        # 'bow' | 'tfidf' | 'none'.
 
-        # proto weights for GCN
-
-        'k'                 : 0,
-        'use_proto'         : False,
+      
         'outputs_weight'    :  [1],
 
         'Model'             : 'IGCN',       # 'LP', 'IGCN', 'GLP'， 'MLP'

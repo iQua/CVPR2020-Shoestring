@@ -50,7 +50,7 @@ conda install -c conda-forge texttable
 
 ```bash
 # Cora
-python train.py --pset config_citation --dataset cora 
+python train.py
 
 
 ```

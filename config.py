@@ -204,6 +204,7 @@ parser.add_argument("--train-size", type=str, help='labels per class')
 parser.add_argument("--validate", type=bool, default=None, help='True or False, if use validation set or not')
 
 parser.add_argument("--epochs", type=int, help='training epochs')
+parser.add_argument("--k", type=int, help='k ratio')
 parser.add_argument("--learning-rate", type=float, help='learning rate')
 parser.add_argument("--dropout", type=float, help='dropout probability, from 0.0 to 1.0')
 parser.add_argument("--weight-decay", type=float, help='L2 regularization')
@@ -219,6 +220,9 @@ if args.seed is not None:
     configuration['default']['random_seed']=args.seed
 if args.repeat is not None:
     configuration['repeating']=args.repeat
+if args.k is not None:
+    configuration['default']['k'] = args.k
+
 
 if args.dataset is not None:
     configuration['default']['dataset'] = args.dataset

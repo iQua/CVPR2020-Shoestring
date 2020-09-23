@@ -62,6 +62,7 @@ default = {
         'logging'           : False,        # 'Weather or not to record log'
         'logdir'            : '',           # 'Log directory.''
         'name'              : None,         # 'name of the model. Serve as an ID of model.'
+        'save_feature'      : '',
 
         'random_seed'       : int(time.time()),  # 'Random seed.'
         'threads'           : cpu_count(),  #'Number of threads'

@@ -8,13 +8,20 @@ default = {
         'dataset'           : 'cora',       # 'Dataset (cora | citeseer | pubmed | large_cora | nell.0.1 | nell.0.01 | nell.0.001)
         'shuffle'           : True,         # random split or not
         'train_size'        : 4,            # if train_size is a number, then use TRAIN_SIZE labels per class.
+        # 'train_size'        : [4, 6, 8, 10, 20, 20, 20],
         'validation_size'   : 500,          # 'Use VALIDATION_SIZE data to train model'
         'validate'          : False,        # Whether use validation set
         'test_size'         : None,         # If None, all rest are test set
         'feature'           : 'bow',        # 'bow' | 'tfidf' | 'none'.
 
-      
+        # proto weights for GCN
+
+        'k'                 : 0,
+        'use_proto'         : False,
         'outputs_weight'    :  [1],
+        #'outputs_weight'    : [1, 1, 1, 1, 1, 1],
+        #'outs_weight'       : [0, 0.1, 0.1, 0.6, 0.8, 1],
+        #'outs_softmax_weight': [0, 0, 0.1, 0.1, 0.1, 0.1],
 
         'Model'             : 'IGCN',       # 'LP', 'IGCN', 'GLP'， 'MLP'
 

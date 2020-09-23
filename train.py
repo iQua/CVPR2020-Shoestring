@@ -227,8 +227,8 @@ def train(model_config, sess, repeat_state, adj, features, y_train, y_val, y_tes
                 sess=sess,
                 save_path=path.join(model_config['logdir'], 'model.ckpt'))))
         if model_config['save_feature']:
+            sess.run(model.assign_data, feed_dict=test_feed_dict)
             outs = sess.run(model.outs_for_graph)
-            print(outs)
             with open(model_config['save_feature'], 'w') as save:
                 for line in outs:
                     for item in line:           
